@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.glarimy.com/store"
+	xmlns:abc="http://www.glarimy.com/store" elementFormDefault="qualified">
+	<element name="product">
+		<complexType>
+			<sequence>
+				<element name='id' type='int' />
+				<element name='name' type='string' />
+				<element name='quantity' type='int' />
+			</sequence>
+		</complexType>
+	</element>
+</schema>
